@@ -1,12 +1,3 @@
-
-########## Developer Comment
-# Name : Myungsu Chae
-# Affiliation : KAIST Institute for Artificial Intelligence
-# Last Update : 5th, February, 2018
-# Summary : Severity prediction from MRI based on Convolutional Neural Network (CNN)
-# Reference : Dropout / CNN / etc.
-
-
 ########## Libraries
 import os
 from keras import backend as K
@@ -37,8 +28,8 @@ img_rows, img_cols = 256, 256
 img_channels = 1
 
 ########## Data path
-path1 = "./input_data"  # path of folder of images
-path2 = './input_data_resized'  # path of folder to save resized images
+path1 = "NEED_TO_CHANGE"  # path of folder of images
+path2 = 'NEED_TO_CHANGE'  # path of folder to save resized images
 
 listing = os.listdir(path1)
 num_samples = size(listing)
